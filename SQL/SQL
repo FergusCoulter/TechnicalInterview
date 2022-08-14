@@ -12,18 +12,11 @@ GROUP BY e.name
 ORDER BY TotalSales DESC
 
 --Q3:
-WITH MonthlySalaries as 
-(
-	SELECT
-    e.id,
-    ROUND(e.annual_salary/12,2) AS MonthlySalary
-    FROM
-    Employees e
-)
 SELECT MONTH(sale_date) AS Month,
  Year(sale_date) AS Year,
- SUM(s.amount) - SUM(ms.MonthlySalary) AS 'Profit/Loss'
+ SUM(s.amount) - MS.TotalMonthlySalary AS 'Profit/Loss'
 FROM Sales s
-LEFT JOIN MonthlySalaries ms ON ms.id = s.employee_id
-Group By Month, Year
-ORDER BY Month, Year
+INNER JOIN Employees e ON e.id = s.employee_id
+CROSS APPLY (SELECT SUM(e.annual_salary/12) as TotalMonthlySalary FROM employees e ) MS
+Group By MONTH(sale_date), Year(sale_date), MS.TotalMonthlySalary
+ORDER BY MONTH(sale_date), Year(sale_date)
