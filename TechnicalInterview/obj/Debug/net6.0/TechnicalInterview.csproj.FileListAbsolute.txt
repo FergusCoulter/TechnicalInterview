@@ -1,0 +1,15 @@
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/bin/Debug/net6.0/TechnicalInterview
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/bin/Debug/net6.0/TechnicalInterview.deps.json
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/bin/Debug/net6.0/TechnicalInterview.runtimeconfig.json
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/bin/Debug/net6.0/TechnicalInterview.dll
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/bin/Debug/net6.0/TechnicalInterview.pdb
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.csproj.AssemblyReference.cache
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.AssemblyInfoInputs.cache
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.AssemblyInfo.cs
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.csproj.CoreCompileInputs.cache
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.dll
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/refint/TechnicalInterview.dll
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.pdb
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/TechnicalInterview.genruntimeconfig.cache
+/Users/ferguscoulter/Projects/TechnicalInterview/TechnicalInterview/obj/Debug/net6.0/ref/TechnicalInterview.dll

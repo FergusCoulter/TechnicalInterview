@@ -1,0 +1,11 @@
+SELECT d.department, SUM(e.annual_salary) As AnnualCost from Department d
+INNER JOIN Employees e ON d.id = e.department_id
+GROUP BY d.department
+
+SELECT e.name, SUM(s.amount) as TotalSales FROM Sales s
+INNER JOIN Employees e ON e.id = s.employee_id
+INNER JOIN Department d ON d.id = e.department_id
+WHERE d.department = 'Sales'
+GROUP BY e.name
+ORDER BY TotalSales DESC
+
