@@ -1,7 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using TechnicalInterview;
 
-Console.WriteLine("Hello, World!");
 
 var deck = new DeckOfCards();
 

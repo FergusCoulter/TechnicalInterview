@@ -1,5 +1,4 @@
-﻿using System;
-namespace TechnicalInterview
+﻿namespace TechnicalInterview
 {
     public class DeckOfCards : Deck<Card>
     {

@@ -17,8 +17,6 @@ namespace TechnicalInterview
                 }
             }
 
-
-
             return deck.AsEnumerable();
         }
     }
