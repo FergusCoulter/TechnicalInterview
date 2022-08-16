@@ -7,9 +7,9 @@ namespace TechnicalInterview
         {
             var deck = new List<Card>();
 
-            foreach(var suit in Enumerable.Range(0,3))
+            foreach(var suit in Enumerable.Range(0,4))
             {
-                foreach(var card in Enumerable.Range(0,12))
+                foreach(var card in Enumerable.Range(0,13))
                 {
                     var value = (card < 10) ? card+1 : 10;
 
